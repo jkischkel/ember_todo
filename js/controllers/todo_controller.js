@@ -17,7 +17,7 @@ Todos.TodoController = Ember.ObjectController.extend({
 
   isEditing: false,
 
-  isCompleted: function(key, value){
+  isCompleted: function(key, value) {
     var model = this.get('model');
 
     if (value === undefined) {
